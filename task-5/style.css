@@ -1,0 +1,32 @@
+.outerbox{
+    background-color: rgb(210, 219, 197);
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    
+}
+.upperone{
+    background-color: greenyellow;
+    height: 60px;
+    padding: 20px;
+}
+.navv{
+    background-color: rgb(210, 219, 197);
+    padding: 20px;
+    width: 200px;
+}
+.articlee{
+    background-color: white;
+    padding: 20px;
+    width: 1000px;
+}
+.asidee{
+    background-color: rgb(210, 219, 197);
+    padding: 20px;
+    width: 200px;
+}
+.footerr{
+    background-color: greenyellow;
+    height: 60px;
+    padding: 20px;
+}
