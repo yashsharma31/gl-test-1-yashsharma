@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  padding-top: 200px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.outer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container h2 {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.5rem;
+}
+.color {
+  color: hsl(205, 78%, 60%);
+}
+
+.btnD {
+  background: transparent;
+  color: #222;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  border: 2px solid #222;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 20px;
+}
