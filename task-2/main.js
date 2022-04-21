@@ -12,7 +12,6 @@ var i=2;
 function onSubmit(e) {
     if(password.value.length<=8 || !password.value.match(verify1)){
             const msg2 = document.createElement("text");
-        
         msg2.classList.add("error");
             msg.appendChild(msg2);
         msg2.innerText = 'Enter Valid password';
@@ -20,11 +19,9 @@ function onSubmit(e) {
         setTimeout(() => msg2.remove(), 3000);
     }
     else{
-    const li = document.createElement('li');
-    const text = document.createTextNode(`${nameInput.value}: ${emailInput.value}`);
-    li.appendChild(text);
-    userList.appendChild(li); 
-    nameInput.value = '';
-    emailInput.value = '';
-    password.value = '';}
+    const msg2 = document.createElement("text");
+    msg2.classList.add("nameInput.value");
+    msg2.classList.add("emailInput.value");
+    msg2.classList.add("password.value");
+    }
 }
